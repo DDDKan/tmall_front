@@ -1,0 +1,190 @@
+/* navbar */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+nav.top span,
+nav.top a {
+    color: #999;
+    margin: 0 10px;
+}
+
+.redColor {
+    color: #c40000 !important;
+}
+
+nav.top {
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav.top a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* searchbar */
+
+body {
+    font-family: Arial;
+}
+
+div.searchDiv {
+    width: 400px;
+    height: 40px;
+    margin: 50px auto;
+    background-color: #c40000;
+    padding: 1px;
+    /* 只有使用块状显示的时候外边距才会生效 */
+    display: block;
+}
+
+div.searchDiv input {
+    width: 275px;
+    height: 36px;
+    margin: 1px;
+    border: 1px solid transparent;
+    /* 去掉高亮 */
+    outline: none;
+    font-size: 16px;
+}
+
+div.searchDiv button {
+    width: 110px;
+    background-color: #c40000;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+div.searchDiv input::-webkit-input-placeholder {
+    color: #999;
+}
+
+div.searchBelow {
+    margin-top: 3px;
+    margin-left: -20px;
+}
+
+div.searchBelow span span {
+    color: #999;
+}
+
+div.searchBelow span a {
+    color: #999;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+div.searchBelow span a:hover {
+    text-decoration: none;
+    color: #c40000;
+}
+
+div img#logo {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    /* z-index: -1; */
+}
+
+/* pagefooter1 */
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer div.footer_ensure {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+div.footer_desc {
+    border-top: 1px solid #e7e7e7;
+    margin: 0 20px;
+    padding-top: 30px;
+}
+
+div.footer_desc div.descColumn {
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+}
+
+div.footer_desc div.descColumn a {
+    display: block;
+    padding-top: 3px;
+    color: #999;
+}
+
+div.footer_desc div.descColumn span.descColumnTitle {
+    color: #646464;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.footer_desc div.descColumn a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* pagefooter2 */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer img#cateye {
+    margin-left: 20px;
+}
+
+div.footer div.copyright {
+    background-color: #000;
+    border-top: 2px solid #c40000;
+}
+
+div.footer div.copyright div.white_link {
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+div.footer div.copyright div.white_link a {
+    color: #fff;
+    padding: 0 5px;
+}
+
+div.footer div.copyright div.white_link span.slash {
+    color: #fff;
+}
+
+div.footer div.copyright div.license {
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+div.footer div.copyright div.license span {
+    color: #a4a4a4;
+}
+
+div.footer div.copyright div.license div.copyrightYear {
+    color: #686868;
+    margin: 10px 0;
+}

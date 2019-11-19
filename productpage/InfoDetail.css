@@ -1,0 +1,92 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.productDetailDiv {
+    width: 790px;
+    margin: 40px auto;
+}
+
+div.productDetailDiv div.productDetailTopPart {
+    border: 1px solid #dfdfdf;
+    border-left-width: 0;
+    line-height: 46px;
+}
+
+div.productDetailDiv div.productDetailTopPart a.selected {
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    border-left: 1px solid #cfbfb1;
+    border-right: 1px solid #cfbfb1;
+    color: #b10000;
+    font-weight: bold;
+    position: relative;
+}
+
+div.productDetailDiv div.productDetailTopPart a.selected:before {
+    content: "";
+    border: 1px solid #b00000;
+    display: block;
+    width: 90px;
+    position: absolute;
+    height: 0;
+    top: -2px;
+    margin-left: -1px;
+}
+
+div.productDetailDiv div.productDetailTopPart a.selected:after {
+    content: "";
+    display: block;
+    border-color: #b00000 transparent transparent;
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    margin-left: -5px;
+    height: 0;
+    width: 0;
+}
+
+div.productDetailDiv div.productDetailTopPart a.productDetailTopReviewLink {
+    padding: 0 20px;
+    border-right: 1px dotted #d2d2d2;
+    color: #333;
+}
+
+div.productDetailDiv div.productDetailTopPart a.productDetailTopReviewLink 
+span.productDetailTopReviewLinkNumber {
+    color: #3355b9;
+}
+
+div.productDetailDiv div.productDetailTopPart a:hover {
+    text-decoration: none;
+    color: #c40000;
+}
+
+div.productDetailDiv div.productParamterPart {
+    border: 1px solid #dfdfdf;
+    padding: 40px;
+}
+
+div.productDetailDiv div.productParamterPart div.productParamter {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #999;
+}
+
+div.productDetailDiv div.productParamterPart div.productParamterList span {
+    display: block;
+    width: 220px;
+    float: left;
+    padding: 8px 0;
+    color: #666;
+}
+
+div.productDetailDiv div.productDetailImagesPart img {
+    display: block;
+    width: 790px;
+    margin: 20px 0;
+}

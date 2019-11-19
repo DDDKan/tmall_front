@@ -1,0 +1,396 @@
+/* navbar */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+nav.top span,
+nav.top a {
+    color: #999;
+    margin: 0 10px;
+}
+
+.redColor {
+    color: #c40000 !important;
+}
+
+nav.top {
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav.top a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* simpleSearchbar */
+
+div.simpleSearchBar {
+    margin: 10px auto;
+}
+
+div.simpleSearchDiv {
+    background-color: #c40000;
+    height: 40px;
+    padding: 1px;
+    margin: 10px 20px 40px;
+    width: 300px;
+     /* 只有使用块状显示的时候外边距才会生效 */
+    display: block;
+}
+
+div.simpleSearchDiv input {
+    width: 225px;
+    height: 34px;
+    margin: 2px;
+    outline: none;
+    border: 1px solid transparent;
+    font-size: 14px;
+}
+
+div.simpleSearchDiv button {
+    width: 60px;
+    background-color: #c40000;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+div.simpleSearchDiv input::-webkit-input-placeholder {
+    color: #999;
+}
+
+div.simpleSearchBelow {
+    margin-top: 3px;
+    margin-left: -20px;
+}
+
+div.simpleSearchBelow span a {
+    padding: 0 20px;
+    color: #999;
+    font-size: 14px;
+}
+
+div.simpleSearchBelow span {
+    color: #999;
+}
+
+div.simpleSearchBelow span a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+div img#simpleLogo {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    width: 140px;
+}
+
+div.categoryPictureInProductPageDiv {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* title */
+
+div.boughtDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+div.boughtDiv div.orderType div {
+    float: left;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+div.boughtDiv div.orderType div a {
+    display: inline-block;
+    padding: 0 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-right: 1px solid #e8e8e8;
+    margin-bottom: 10px;
+}
+
+div.boughtDiv div.orderType div a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+div.boughtDiv div.orderType div.selectedOrderType {
+    border-bottom: 2px solid #c40000;
+}
+
+div.boughtDiv div.orderType div.selectedOrderType a {
+    color: #c40000;
+}
+
+div.boughtDiv div.orderType div a.noRightborder {
+    border-right-width: 0 !important;
+}
+
+div.boughtDiv div.orderType div.orderTypeLastOne {
+    /* 隐藏滚动条 */
+    overflow: hidden;
+    float: none !important;
+    height: 34.5px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+div.boughtDiv div.orderListTitle table.orderListTitleTable {
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 20px 0;
+}
+
+div.boughtDiv div.orderListTitle table.orderListTitleTable tr td {
+    padding: 12px 0;
+}
+
+/* productList */
+
+div.boughtDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable {
+    margin: 20px 0;
+    width: 100%;
+    border: 2px solid #ececec;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable:hover {
+    border: 2px solid #aaa !important;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderListItemFirstTR {
+    background-color: #f1f1f1;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderListItemFirstTR td
+a.wangwanglink div.orderItemWangWangGif {
+    background-image: url("C:/Users/guozhenwei/Desktop/tmall/picture/wangwang.gif");
+    background-attachment: scroll; /* 背景图像会随着页面其余部分的滚动而移动 */
+    background-repeat: no-repeat; /* 不重复 */
+    background-position: 0 0;
+    background-color: transparent;
+    display: inline-block;
+    width: 67px;
+    height: 22px;
+    position: relative;
+    top: 0;
+    left: 2px;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr td {
+    padding: 8px 10px;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderListItemFirstTR
+td.orderItemDeleteTD {
+    text-align: right;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderListItemFirstTR
+td.orderItemDeleteTD a.deleteOrderLink span.orderListItemDelete {
+    display: inline-block;
+    font-size: 16px;
+    color: #999;
+    margin: 0 10px;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+div.orderListItemProductLinkOutDiv {
+    position: relative;
+    height: 80px;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+div.orderListItemProductLinkOutDiv div.orderListItemProductLinkInnerDiv {
+    position: absolute;
+    bottom: 0;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+div.orderListItemProductOriginalPrice {
+    font-size: 14px;
+    color: #999;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+div.orderListItemProductPrice {
+    font-size: 14px;
+    color: #3c3c3c;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+span.orderListItemNumber {
+    color: #3c3c3c;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+td.orderItemOrderInfoPartTD {
+    border: 1px solid #ececec;
+    text-align: center;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+div.orderListItemProductRealPrice {
+    font-size: 14px;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+div.orderListItemPriceWithTransport {
+    color: #6c6c6c;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+button.orderListItemReview {
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 6px 12px;
+    color: #3c3c3c;
+    border: 1px solid #dcdcdc;
+    font-weight: bold;
+    outline: none;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+button.orderListItemReview:hover {
+    border-color: #c40000;
+    color: #c40000;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+button.orderListItemConfirm {
+    background-color: #66b6ff;
+    border-radius: 2px;
+    padding: 6px 12px;
+    border-width: 0;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+}
+
+div.boughtDiv div.orderListItem table.orderListItemTable tr.orderItemProductInfoPartTR
+button.orderListItemConfirm:hover {
+    background-color: #118adb;
+}
+
+div.boughtDiv a {
+    color: #999;
+}
+
+div.boughtDiv a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* pagefooter1 */
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer div.footer_ensure {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+div.footer_desc {
+    border-top: 1px solid #e7e7e7;
+    margin: 0 20px;
+    padding-top: 30px;
+}
+
+div.footer_desc div.descColumn {
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+}
+
+div.footer_desc div.descColumn a {
+    display: block;
+    padding-top: 3px;
+    color: #999;
+}
+
+div.footer_desc div.descColumn span.descColumnTitle {
+    color: #646464;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.footer_desc div.descColumn a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* pagefooter2 */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer img#cateye {
+    margin-left: 20px;
+}
+
+div.footer div.copyright {
+    background-color: #000;
+    border-top: 2px solid #c40000;
+}
+
+div.footer div.copyright div.white_link {
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+div.footer div.copyright div.white_link a {
+    color: #fff;
+    padding: 0 5px;
+}
+
+div.footer div.copyright div.white_link span.slash {
+    color: #fff;
+}
+
+div.footer div.copyright div.license {
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+div.footer div.copyright div.license span {
+    color: #a4a4a4;
+}
+
+div.footer div.copyright div.license div.copyrightYear {
+    color: #686868;
+    margin: 10px 0;
+}

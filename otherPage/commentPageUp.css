@@ -1,0 +1,92 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.reviewDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+div.reviewDiv div.reviewProductInfoDiv div.reviewProductInfoImg {
+    width: 464px;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    float: left;
+}
+
+div.reviewDiv div.reviewProductInfoDiv div.reviewProductInfoImg img {
+    width: 400px;
+    height: 400px;
+}
+
+div.reviewDiv div.reviewProductInfoDiv div.reviewProductInfoRightDiv {
+    overflow: hidden; /* 隐藏超出部分 */
+    padding: 30px 20px;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.reviewDiv div.reviewProductInfoDiv div.reviewProductInfoRightDiv
+div.reviewProductInfoRightText {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+div.reviewDiv div.reviewProductInfoDiv div.reviewProductInfoRightDiv
+table.reviewProductInfoTable {
+    margin: 20px 10px;
+    color: #999;
+}
+
+div.reviewDiv div.reviewProductInfoDiv div.reviewProductInfoRightDiv
+table.reviewProductInfoTable td {
+    padding-bottom: 5px;
+}
+
+div.reviewDiv div.reviewProductInfoDiv div.reviewProductInfoRightDiv
+table.reviewProductInfoTable td span.reviewProductInfoTablePrice {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c40000;
+}
+
+div.reviewDiv div.reviewProductInfoDiv div.reviewProductInfoRightDiv
+table.reviewProductInfoTable td span.reviewProductInfoTableSellNumber {
+    font-size: 14px;
+    font-weight: bold;
+    color: #c40000;
+}
+
+div.reviewDiv div.reviewProductInfoDiv div.reviewProductInfoRightDiv
+div.reviewProductInfoRightBelowDiv {
+    background-color: #fdfbfa;
+    border: 1px solid #f6f5f3;
+    height: 166px;
+    padding: 16px 0 16px 81px;
+}
+
+div.reviewDiv div.reviewProductInfoDiv div.reviewProductInfoRightDiv
+div.reviewProductInfoRightBelowDiv span.reviewProductInfoRightBelowImg {
+    display: inline-block;
+    background-image: url("C:/Users/guozhenwei/Desktop/tmall/picture/reviewLight.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 42px;
+    border: 1px solid #e1e1e1;
+    padding: 0;
+}
+
+div.reviewDiv div.reviewProductInfoDiv div.reviewProductInfoRightDiv
+div.reviewProductInfoRightBelowDiv span.reviewProductInfoRightBelowText {
+    display: inline-block;
+    width: 200px;
+    height: 42px;
+    border: 1px solid #efefef;
+    padding: 4px;
+    position: relative;
+    top: -7px;
+    left: -4px;
+    color: #666;
+}

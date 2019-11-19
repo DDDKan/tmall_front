@@ -1,0 +1,361 @@
+/* navbar */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+nav.top span,
+nav.top a {
+    color: #999;
+    margin: 0 10px;
+}
+
+.redColor {
+    color: #c40000 !important;
+}
+
+nav.top {
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav.top a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* headAndAddress */
+
+div.buyPageDiv {
+    max-width: 1013px;
+    margin: 20px auto;
+}
+
+div.buyPageDiv div.address {
+    margin: 20px 5px;
+    text-align: left;
+}
+
+div.buyPageDiv div.address div.addressTip {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+div.buyPageDiv div.address table.addressTable {
+    margin: 20px;
+    width: 600px;
+}
+
+div.buyPageDiv div.address table.addressTable td {
+    height: 30px;
+    vertical-align: top;
+    color: #333;
+}
+
+div.buyPageDiv div.address table.addressTable td.firstColumn {
+    width: 100px;
+}
+
+div.buyPageDiv div.address table.addressTable span.redStar {
+    color: #f00;
+    font-size: 8px;
+}
+
+div.buyPageDiv div.address table.addressTable textarea {
+    width: 400px;
+    margin-bottom: 10px;
+    border: 1px solid #afafaf;
+}
+
+div.buyPageDiv div.address table.addressTable input {
+    width: 200px;
+    border: 1px solid #afafaf;
+}
+
+/* confirmOrder */
+
+div.buyPageDiv {
+    max-width: 1013px;
+    margin: 20px auto;
+}
+
+div.buyPageDiv div.productList div.productListTip {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+div.buyPageDiv div.productList table.productListTable {
+    width: 100%;
+}
+
+div.buyPageDiv div.productList table.productListTable img.tmallbuy {
+    width: 15px;
+}
+
+div.buyPageDiv div.productList table.productListTable th {
+    font-family: 宋体;
+    font-weight: normal;
+    color: #999;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+div.buyPageDiv div.productList table.productListTable th.productListTableFirstColumn {
+    text-align: left !important;
+}
+
+div.buyPageDiv div.productList table.productListTable th a.marketLink {
+    color: #000;
+}
+
+div.buyPageDiv div.productList table.productListTable th a.marketLink:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+div.buyPageDiv div.productList table.productListTable th span.wangwangGif {
+    display: inline-block;
+    background-image: url("C:/Users/guozhenwei/Desktop/tmall/picture/wangwang.gif");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: -83px -0;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 8px;
+    left: 2px;
+}
+
+div.buyPageDiv div.productList table.productListTable thead tr.rowborder td {
+    background-color: #b2d1ff;
+    height: 3px;
+    border-right: 2px solid #fff;
+}
+
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+td {
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+td.orderItemFirstTD,
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+td.orderItemProductInfo {
+    text-align: left !important;
+}
+
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+td.orderItemFirstTD,
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+td.orderItemLastTD {
+    border-bottom: 0px solid #fff !important;
+}
+
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+td.orderItemFirstTD img.orderItemImg {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e9e9e9;
+}
+
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+td.orderItemProductInfo a.orderItemProductLink {
+    display: block;
+    color: #666;
+}
+
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+td.orderItemProductInfo a.orderItemProductLink:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+td.orderItemProductInfo img {
+    height: 16px;
+}
+
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+span.orderItemProductPrice,
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+span.orderItemProductNumber {
+    color: #000;
+}
+
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+span.orderItemUnitSum {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+label.orderItemDeliveryLabel {
+    font-family: 宋体;
+    font-weight: normal;
+    color: #666;
+}
+
+div.buyPageDiv div.productList table.productListTable tbody.productListTableTbody tr.orderItemTR
+select.orderItemDeliverySelect {
+    width: 100px;
+    height: 23px;
+}
+
+div.buyPageDiv div.productList div.orderItemSumDiv {
+    border-top: 2px solid #b4d0ff;
+    background-color: #f2f6ff;
+    padding: 20px;
+    color: #999;
+    height: 50px;
+}
+
+div.buyPageDiv div.productList div.orderItemSumDiv span.leaveMessageText {
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+}
+
+div.buyPageDiv div.productList div.orderItemSumDiv span.leaveMessageTextareaSpan
+textarea.leaveMessageTextarea {
+    border: 1px solid #FFAD35;
+    width: 250px;
+    height: 60px;
+    resize: none; /* 规定是否可由用户调整元素的尺寸 */
+}
+
+div.buyPageDiv div.productList div.orderItemTotalSumDiv {
+    margin: 40px;
+    height: 40px;
+    color: #999;
+}
+
+div.buyPageDiv div.productList div.orderItemTotalSumDiv span.orderItemTotalSumSpan {
+    font-size: 22px;
+    font-weight: bold;
+    color: #c40000;
+    border-bottom: 1px dotted #f2f6ff;
+}
+
+div.buyPageDiv div.productList div.submitOrderDiv {
+    margin: 20px 0;
+    height: 40px;
+}
+
+div.buyPageDiv div.productList div.submitOrderDiv button.submitOrderButton {
+    background-color: #c40000;
+    color: #fff;
+    border: 1px solid #c40000;
+    width: 180px;
+    line-height: 40px;
+    font-size: 14px;
+    float: right;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 10px;
+}
+
+/* pagefooter1 */
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer div.footer_ensure {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+div.footer_desc {
+    border-top: 1px solid #e7e7e7;
+    margin: 0 20px;
+    padding-top: 30px;
+}
+
+div.footer_desc div.descColumn {
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+}
+
+div.footer_desc div.descColumn a {
+    display: block;
+    padding-top: 3px;
+    color: #999;
+}
+
+div.footer_desc div.descColumn span.descColumnTitle {
+    color: #646464;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.footer_desc div.descColumn a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* pagefooter2 */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer img#cateye {
+    margin-left: 20px;
+}
+
+div.footer div.copyright {
+    background-color: #000;
+    border-top: 2px solid #c40000;
+}
+
+div.footer div.copyright div.white_link {
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+div.footer div.copyright div.white_link a {
+    color: #fff;
+    padding: 0 5px;
+}
+
+div.footer div.copyright div.white_link span.slash {
+    color: #fff;
+}
+
+div.footer div.copyright div.license {
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+div.footer div.copyright div.license span {
+    color: #a4a4a4;
+}
+
+div.footer div.copyright div.license div.copyrightYear {
+    color: #686868;
+    margin: 10px 0;
+}

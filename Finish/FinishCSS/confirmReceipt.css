@@ -1,0 +1,361 @@
+/* navbar */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+nav.top span,
+nav.top a {
+    color: #999;
+    margin: 0 10px;
+}
+
+.redColor {
+    color: #c40000 !important;
+}
+
+nav.top {
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav.top a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* simpleSearchbar */
+
+div.simpleSearchBar {
+    margin: 10px auto;
+}
+
+div.simpleSearchDiv {
+    background-color: #c40000;
+    height: 40px;
+    padding: 1px;
+    margin: 10px 20px 40px;
+    width: 300px;
+     /* 只有使用块状显示的时候外边距才会生效 */
+    display: block;
+}
+
+div.simpleSearchDiv input {
+    width: 225px;
+    height: 34px;
+    margin: 2px;
+    outline: none;
+    border: 1px solid transparent;
+    font-size: 14px;
+}
+
+div.simpleSearchDiv button {
+    width: 60px;
+    background-color: #c40000;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+div.simpleSearchDiv input::-webkit-input-placeholder {
+    color: #999;
+}
+
+div.simpleSearchBelow {
+    margin-top: 3px;
+    margin-left: -20px;
+}
+
+div.simpleSearchBelow span a {
+    padding: 0 20px;
+    color: #999;
+    font-size: 14px;
+}
+
+div.simpleSearchBelow span {
+    color: #999;
+}
+
+div.simpleSearchBelow span a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+div img#simpleLogo {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    width: 140px;
+}
+
+div.categoryPictureInProductPageDiv {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* confirmReceiptUp */
+
+div.confirmPayPageDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+div.confirmPayPageDiv div.confirmPayImageDiv {
+    width: 900px;
+    color: #999;
+    /* auto 自动适应 使用时必须给标签配上制定的宽度 上边距5px 下边距80px 左右边距自动适应 */
+    margin: 5px auto 80px auto;
+    position: relative;
+}
+
+div.confirmPayPageDiv div.confirmPayImageDiv div.confirmPayTime1 {
+    position: absolute;
+    top: 100px;
+    left: -20px;
+}
+
+div.confirmPayPageDiv div.confirmPayImageDiv div.confirmPayTime2 {
+    position: absolute;
+    top: 100px;
+    left: 190px;
+}
+
+div.confirmPayPageDiv div.confirmPayImageDiv div.confirmPayTime3 {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderInfoText {
+    margin: 10px 10px 0 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #adc8e6;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv {
+    margin: 0 20px;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv div.confirmPayOrderItemText {
+    margin: 20px 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable thead {
+    background-color: #e8f2ff;
+    height: 33px;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable thead th {
+    text-align: center;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tr {
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tbody td {
+    padding: 20px;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tbody
+td.confirmPayOrderItemProductLink {
+    text-align: left !important;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tbody
+td.confirmPayOrderItemProductLink a {
+    color: #999;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tbody
+td.confirmPayOrderItemProductLink a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tbody
+span.conformPayProductPrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv div.confirmPayOrderItemText
+span.confirmPayOrderItemSumPrice {
+    color: #c40000;
+}
+
+/* confirmReceiptDown */
+
+div.confirmPayPageDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderDetailDiv {
+    margin: 40px;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderDetailDiv table.confirmPayOrderDetailTable {
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderDetailDiv table.confirmPayOrderDetailTable td {
+    font-size: 14px;
+    padding: 8px;
+    color: #000;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderDetailDiv table.confirmPayOrderDetailTable td
+span.confirmPayOrderDetailWangWangGif {
+    background-image: url("C:/Users/guozhenwei/Desktop/tmall/picture/wangwang.gif");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: 0 0;
+    display: inline-block;
+    width: 67px;
+    height: 22px;
+    position: relative;
+    top: 0;
+    left: 2px;
+}
+
+div.confirmPayPageDiv div.confirmPayButtonDiv {
+    margin: 20px;
+    border: 1px solid #f58b0f;
+}
+
+div.confirmPayPageDiv div.confirmPayButtonDiv div.confirmPayWarning {
+    margin: 20px 80px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f00;
+}
+
+div.confirmPayPageDiv div.confirmPayButtonDiv button.confirmPayButton {
+    margin: 20px 80px;
+    border: 1px solid #e67c00;
+    border-radius: 4px;
+    width: 67px;
+    height: 30px;
+    background-color: #f4a21d;
+    color: #fff;
+}
+
+div.confirmPayPageDiv div.confirmPayButtonDiv button.confirmPayButton:hover {
+    background-color: #f6ae30;
+}
+
+/* pagefooter1 */
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer div.footer_ensure {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+div.footer_desc {
+    border-top: 1px solid #e7e7e7;
+    margin: 0 20px;
+    padding-top: 30px;
+}
+
+div.footer_desc div.descColumn {
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+}
+
+div.footer_desc div.descColumn a {
+    display: block;
+    padding-top: 3px;
+    color: #999;
+}
+
+div.footer_desc div.descColumn span.descColumnTitle {
+    color: #646464;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.footer_desc div.descColumn a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* pagefooter2 */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer img#cateye {
+    margin-left: 20px;
+}
+
+div.footer div.copyright {
+    background-color: #000;
+    border-top: 2px solid #c40000;
+}
+
+div.footer div.copyright div.white_link {
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+div.footer div.copyright div.white_link a {
+    color: #fff;
+    padding: 0 5px;
+}
+
+div.footer div.copyright div.white_link span.slash {
+    color: #fff;
+}
+
+div.footer div.copyright div.license {
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+div.footer div.copyright div.license span {
+    color: #a4a4a4;
+}
+
+div.footer div.copyright div.license div.copyrightYear {
+    color: #686868;
+    margin: 10px 0;
+}

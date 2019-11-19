@@ -1,0 +1,52 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.buyPageDiv {
+    max-width: 1013px;
+    margin: 20px auto;
+}
+
+div.buyPageDiv div.address {
+    margin: 20px 5px;
+    text-align: left;
+}
+
+div.buyPageDiv div.address div.addressTip {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+div.buyPageDiv div.address table.addressTable {
+    margin: 20px;
+    width: 600px;
+}
+
+div.buyPageDiv div.address table.addressTable td {
+    height: 30px;
+    vertical-align: top;
+    color: #333;
+}
+
+div.buyPageDiv div.address table.addressTable td.firstColumn {
+    width: 100px;
+}
+
+div.buyPageDiv div.address table.addressTable span.redStar {
+    color: #f00;
+    font-size: 8px;
+}
+
+div.buyPageDiv div.address table.addressTable textarea {
+    width: 400px;
+    margin-bottom: 10px;
+    border: 1px solid #afafaf;
+}
+
+div.buyPageDiv div.address table.addressTable input {
+    width: 200px;
+    border: 1px solid #afafaf;
+}

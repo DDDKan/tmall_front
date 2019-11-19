@@ -1,0 +1,60 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.categoryPageDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+div.categoryPageDiv div.categorySortBar {
+    background-color: #FAF9F9;
+    padding: 4px;
+    margin: 40px 20px 20px 20px;
+}
+
+div.categoryPageDiv div.categorySortBar table.categorySortTable a {
+    color: #806F66;
+}
+
+div.categoryPageDiv div.categorySortBar table.categorySortTable a:hover {
+    color: #c40000;
+}
+
+div.categoryPageDiv div.categorySortBar table.categorySortTable td:hover {
+    background-color: #F1EDEC;
+}
+
+div.categoryPageDiv div.categorySortBar table.categorySortTable span.glyphicon {
+    font-size: 10px;
+}
+
+div.categoryPageDiv div.categorySortBar table.categorySortBarTable {
+    display: inline-block;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+div.categoryPageDiv div.categorySortBar table.categorySortBarTable td {
+    height: 17px;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+div.categoryPageDiv div.categorySortBar table.categorySortBarTable td.grayColumn {
+    background-color: #F1EDEC;
+}
+
+div.categoryPageDiv div.categorySortBar table.categorySortBarTable td.priceMiddleColumn {
+    width: 5px;
+    vertical-align: middle;
+    color: #CCC;
+}
+
+div.categoryPageDiv div.categorySortBar table.categorySortBarTable td input {
+    width: 50px;
+    height: 15px;
+    border-width: 0;
+    outline: none;
+}

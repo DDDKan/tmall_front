@@ -1,0 +1,182 @@
+/* loginPage */
+
+div#loginDiv div.simpleLogo {
+    padding: 32px 0;
+}
+
+div#loginDiv div.backgroundImgDiv {
+    background-image: url("C:/Users/guozhenwei/Desktop/tmall/picture/loginBackground.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: scroll;
+    background-position: 0 0;
+    position: relative;
+    width: 1190px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+div#loginDiv div.backgroundImgDiv div.loginSmallDiv {
+    position: absolute;
+    top: 89px;
+    right: 74px;
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    padding: 60px 25px 80px;
+}
+
+div#loginDiv div.backgroundImgDiv div.loginSmallDiv div.login_acount_text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+
+div#loginDiv div.backgroundImgDiv div.loginSmallDiv div.loginInput {
+    margin: 20px 0;
+    border: 1px solid #cbcbcb;
+}
+
+div#loginDiv div.backgroundImgDiv div.loginSmallDiv div.loginInput span.loginInputIcon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #cbcbcb;
+    margin: 0;
+}
+
+div#loginDiv div.backgroundImgDiv div.loginSmallDiv div.loginInput span.loginInputIcon
+span.glyphicon {
+    position: relative;
+    top: 9px;
+    left: 9px;
+    font-size: 22px;
+    color: #606060;
+}
+
+div#loginDiv div.backgroundImgDiv div.loginSmallDiv div.loginInput input {
+    display: inline-block;
+    width: 244px;
+    height: 30px;
+    position: relative;
+    top: 3px;
+    left: 6px;
+    border-width: 0;
+    outline: none;
+}
+
+div#loginDiv div.backgroundImgDiv div.loginSmallDiv div a {
+    color: #999;
+}
+
+div#loginDiv div.backgroundImgDiv div.loginSmallDiv div a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+div#loginDiv div.backgroundImgDiv div.loginSmallDiv div button.btn {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #c40000;
+    color: #fff;
+}
+
+div#loginDiv div.backgroundImgDiv div.loginSmallDiv div button.btn:hover {
+    color: #000;
+}
+
+/* pagefooter1 */
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer div.footer_ensure {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+div.footer_desc {
+    border-top: 1px solid #e7e7e7;
+    margin: 0 20px;
+    padding-top: 30px;
+}
+
+div.footer_desc div.descColumn {
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+}
+
+div.footer_desc div.descColumn a {
+    display: block;
+    padding-top: 3px;
+    color: #999;
+}
+
+div.footer_desc div.descColumn span.descColumnTitle {
+    color: #646464;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.footer_desc div.descColumn a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* pagefooter2 */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer img#cateye {
+    margin-left: 20px;
+}
+
+div.footer div.copyright {
+    background-color: #000;
+    border-top: 2px solid #c40000;
+}
+
+div.footer div.copyright div.white_link {
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+div.footer div.copyright div.white_link a {
+    color: #fff;
+    padding: 0 5px;
+}
+
+div.footer div.copyright div.white_link span.slash {
+    color: #fff;
+}
+
+div.footer div.copyright div.license {
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+div.footer div.copyright div.license span {
+    color: #a4a4a4;
+}
+
+div.footer div.copyright div.license div.copyrightYear {
+    color: #686868;
+    margin: 10px 0;
+}

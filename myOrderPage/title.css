@@ -1,0 +1,62 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.boughtDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+div.boughtDiv div.orderType div {
+    float: left;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+div.boughtDiv div.orderType div a {
+    display: inline-block;
+    padding: 0 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-right: 1px solid #e8e8e8;
+    margin-bottom: 10px;
+}
+
+div.boughtDiv div.orderType div a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+div.boughtDiv div.orderType div.selectedOrderType {
+    border-bottom: 2px solid #c40000;
+}
+
+div.boughtDiv div.orderType div.selectedOrderType a {
+    color: #c40000;
+}
+
+div.boughtDiv div.orderType div a.noRightborder {
+    border-right-width: 0 !important;
+}
+
+div.boughtDiv div.orderType div.orderTypeLastOne {
+    /* 隐藏滚动条 */
+    overflow: hidden;
+    float: none !important;
+    height: 35px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+div.boughtDiv div.orderListTitle table.orderListTitleTable {
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 20px 0;
+}
+
+div.boughtDiv div.orderListTitle table.orderListTitleTable tr td {
+    padding: 12px 0;
+}

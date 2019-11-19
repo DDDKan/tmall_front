@@ -1,0 +1,161 @@
+/* navbar */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+nav.top span,
+nav.top a {
+    color: #999;
+    margin: 0 10px;
+}
+
+.redColor {
+    color: #c40000 !important;
+}
+
+nav.top {
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav.top a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* payPage */
+
+div.aliPayPageDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+div.aliPayPageDiv div.aliPayPageLogo {
+    margin: 20px;
+}
+
+div.aliPayPageDiv span.confirmMoneyText {
+    color: #4d4d4d;
+}
+
+div.aliPayPageDiv span.confirmMoney {
+    display: block;
+    margin: 10px;
+    color: #f60;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.aliPayPageDiv button.confirmPay {
+    text-align: center;
+    background-color: #0ae;
+    border: 1px solid #0ae;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 107px;
+    line-height: 31px;
+}
+
+/* pagefooter1 */
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer div.footer_ensure {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+div.footer_desc {
+    border-top: 1px solid #e7e7e7;
+    margin: 0 20px;
+    padding-top: 30px;
+}
+
+div.footer_desc div.descColumn {
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+}
+
+div.footer_desc div.descColumn a {
+    display: block;
+    padding-top: 3px;
+    color: #999;
+}
+
+div.footer_desc div.descColumn span.descColumnTitle {
+    color: #646464;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.footer_desc div.descColumn a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+/* pagefooter2 */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.footer {
+    margin: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+div.footer img#cateye {
+    margin-left: 20px;
+}
+
+div.footer div.copyright {
+    background-color: #000;
+    border-top: 2px solid #c40000;
+}
+
+div.footer div.copyright div.white_link {
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+div.footer div.copyright div.white_link a {
+    color: #fff;
+    padding: 0 5px;
+}
+
+div.footer div.copyright div.white_link span.slash {
+    color: #fff;
+}
+
+div.footer div.copyright div.license {
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+div.footer div.copyright div.license span {
+    color: #a4a4a4;
+}
+
+div.footer div.copyright div.license div.copyrightYear {
+    color: #686868;
+    margin: 10px 0;
+}

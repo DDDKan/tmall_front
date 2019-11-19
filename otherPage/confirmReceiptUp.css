@@ -1,0 +1,106 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.confirmPayPageDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+div.confirmPayPageDiv div.confirmPayImageDiv {
+    width: 900px;
+    color: #999;
+    /* auto 自动适应 使用时必须给标签配上制定的宽度 上边距5px 下边距80px 左右边距自动适应 */
+    margin: 5px auto 80px auto;
+    position: relative;
+}
+
+div.confirmPayPageDiv div.confirmPayImageDiv div.confirmPayTime1 {
+    position: absolute;
+    top: 100px;
+    left: -20px;
+}
+
+div.confirmPayPageDiv div.confirmPayImageDiv div.confirmPayTime2 {
+    position: absolute;
+    top: 100px;
+    left: 190px;
+}
+
+div.confirmPayPageDiv div.confirmPayImageDiv div.confirmPayTime3 {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderInfoText {
+    margin: 10px 10px 0 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #adc8e6;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv {
+    margin: 0 20px;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv div.confirmPayOrderItemText {
+    margin: 20px 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable thead {
+    background-color: #e8f2ff;
+    height: 33px;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable thead th {
+    text-align: center;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tr {
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tbody td {
+    padding: 20px;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tbody
+td.confirmPayOrderItemProductLink {
+    text-align: left !important;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tbody
+td.confirmPayOrderItemProductLink a {
+    color: #999;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tbody
+td.confirmPayOrderItemProductLink a:hover {
+    color: #c40000;
+    text-decoration: none;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv table.confirmPayOrderItemTable tbody
+span.conformPayProductPrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+}
+
+div.confirmPayPageDiv div.confirmPayOrderItemDiv div.confirmPayOrderItemText
+span.confirmPayOrderItemSumPrice {
+    color: #c40000;
+}

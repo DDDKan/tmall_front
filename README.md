@@ -14,3 +14,4 @@ tmall_front
 - shoppingCarPage: 购物车页面
 - otherPage: 其他页面
 - picture: 页面所需要的图片
+- Finish: 整合后的页面
